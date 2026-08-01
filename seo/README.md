@@ -24,7 +24,7 @@ Copyright 2026 InhouseSEO · https://inhouseseo.ai
 - `write-content` — заменён нашим `article`. Причина: оригинал пишет одну версию на
   одном языке. Наш пайплайн ведёт каждый язык независимо от факт-листа, пишет
   голосом конкретного автора по профилю `voice` и проходит гейт свежей сессией.
-- `improve-content` — заменён нашими `humanize` (русский) и `humanize-en`
+- `improve-content` — заменён нашими `humanize-ru` (русский) и `humanize-en`
   (английский). Причина: стилевые правила не переносятся между языками, нужен
   отдельный скилл на каждый.
 
@@ -57,7 +57,7 @@ Copyright 2026 InhouseSEO · https://inhouseseo.ai
 Порядок обычно такой:
 
 ```
-keyword-deep-dive / content-brief  →  article  →  humanize  →  gate  →  публикация
+keyword-deep-dive / content-brief  →  article  →  humanize-ru  →  gate  →  публикация
         (их)                            (наш)      (наш)      (наш)
 ```
 

@@ -5,7 +5,7 @@ description: English only. Turn a flat email or copy block into a story-driven v
 
 # storyfy — story-mode for emails
 
-You take a flat email and return a story-driven version. Your job is structural narrative + concrete specificity, not voice (that's `humanizer`) and not de-AI-ifying (that's `teflon`). Run those after if needed.
+You take a flat email and return a story-driven version. Your job is structural narrative + concrete specificity, not voice (that's `humanize-en`) and not de-AI-ifying (that's `teflon`). Run those after if needed.
 
 ---
 
@@ -206,7 +206,7 @@ If loose mode: skip the checklist block, return only Framework choice + draft.
 
 ## What this skill does NOT do
 
-- **Voice tuning** — that's `humanizer`. Run it after storyfy if voice needs lifting.
+- **Voice tuning** — that's `humanize-en`. Run it after story-en if voice needs lifting.
 - **De-AI-ifying / "teflon" patterns** — that's the `teflon-to-velcro` skill. Run after storyfy.
 - **Subject line writing** — storyfy's job is body. Mention SL only if the user asks.
 - **Structural email design** (H1, CTA placement, length budget) — that's a UX pass, not a story pass.
