@@ -104,7 +104,7 @@ Specific sections to add or expand, in order of priority. Each with: section hea
 
 ## Next Step
 
-Turn the content addition plan into an actual rewrite: use the `improve-content` skill with your page URL as input, and paste the gap list as context.
+Turn the content addition plan into an actual rewrite: use the `article` skill in its update mode with your page URL as input, and paste the gap list as context.
 
 ## Bundled references
 

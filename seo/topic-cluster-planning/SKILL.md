@@ -122,7 +122,7 @@ A simple list showing which spokes link to which other spokes. Not every spoke n
 
 ## Next Step
 
-For each spoke, use `content-brief` with the spoke's target keyword to produce a writer-ready brief. Then `write-content` to write the article.
+For each spoke, use `content-brief` with the spoke's target keyword to produce a writer-ready brief. Then `article` to write it.
 
 ## Bundled references
 

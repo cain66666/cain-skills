@@ -138,7 +138,7 @@ Google's snippet extractor looks at this structure specifically. The answer bloc
 
 ## Next Step
 
-For a full content rewrite where the snippet is just one goal: use `improve-content` with your URL.
+For a full content rewrite where the snippet is just one goal: use `article` in its update mode with your URL.
 
 ## Bundled references
 

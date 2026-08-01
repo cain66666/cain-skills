@@ -1,6 +1,6 @@
 # Knowledge Document Template: Worked Example
 
-This is what a good interview output looks like. Use it to calibrate the final step of the skill: how to organize the user's answers into something `write-content` or `improve-content` can actually use. Pattern-match against this example, don't copy the topic.
+This is what a good interview output looks like. Use it to calibrate the final step of the skill: how to organize the user's answers into something `article` can actually use. Pattern-match against this example, don't copy the topic.
 
 ## The four-section structure
 

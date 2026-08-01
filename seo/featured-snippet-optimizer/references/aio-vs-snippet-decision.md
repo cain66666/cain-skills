@@ -51,7 +51,7 @@ When the decision lands on "AIO target", the playbook is different from snippet 
 - **Entity-rich writing** — name the specific brands, tools, people, and concepts. AIO citation models extract entities and match them to queries; vague prose gets skipped.
 - **E-E-A-T signals** — author bylines, cited sources, update dates. AIO citations skew toward pages with clear authorship.
 
-For the full AIO citation playbook, see `skills/write-content/references/geo-optimization.md`.
+For the full AIO citation playbook, see `skills/write-content/references/geo-optimization.md` in the upstream superseo-skills repo (that skill is not bundled here; see ../../README.md).
 
 ## Realistic Timelines
 

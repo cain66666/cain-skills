@@ -1,11 +1,11 @@
 ---
 name: story-en
-description: English only. Turn a flat email or copy block into a story-driven version with concrete names, numbers, and scenes. Leans on validated story frameworks (Pixar spine, ABT, BAB, SCQA, StoryBrand, Made to Stick) and the project's research/voice context. Email-copy specialization. Runtime modes — hybrid (invents specifics but flags them) or loose (invents freely). Use when asked to "storyfy", "make this a story", "add a story", "turn this into a narrative", "concrete this up", "make it less SaaS-flat".
+description: English only. Turn a flat email or copy block into a story-driven version with concrete names, numbers, and scenes. Leans on validated story frameworks (Pixar spine, ABT, BAB, SCQA, StoryBrand, Made to Stick) and the project's research/voice context. Email-copy specialization. Runtime modes — hybrid (invents specifics but flags them) or loose (invents freely). Use when asked to "make this a story", "add a story", "turn this into a narrative", "concrete this up", "make it less SaaS-flat".
 ---
 
-# storyfy — story-mode for emails
+# story-en — story-mode for emails
 
-You take a flat email and return a story-driven version. Your job is structural narrative + concrete specificity, not voice (that's `humanize-en`) and not de-AI-ifying (that's `teflon`). Run those after if needed.
+You take a flat email and return a story-driven version. Your job is structural narrative + concrete specificity, not voice and not de-AI-ifying — both of those are `humanize-en`. Run it after this skill if needed.
 
 ---
 
@@ -16,7 +16,7 @@ Before writing anything, confirm the mode with the user. Two options:
 - **hybrid** (default, recommended): you may invent plausible names, numbers, scenes, but EVERY invented specific is wrapped `[INVENTED: <what> — verify]`. The user keeps, rewrites, or replaces with a real source.
 - **loose**: invent freely, no flagging. Faster, but the user takes on verification themselves. Only use when explicitly asked.
 
-If the invocation already specifies (e.g. "/storyfy hybrid" or "storyfy this loose"), proceed. Otherwise: ask once, then continue.
+If the invocation already specifies (e.g. "/story-en hybrid" or "story-en this loose"), proceed. Otherwise: ask once, then continue.
 
 Never invent without either (a) hybrid flags or (b) explicit loose authorization. Past incident: a fabricated founder anecdote shipped to production and required retroactive verification.
 
@@ -60,7 +60,7 @@ State your choice in one line at the top of the draft (a comment, not a header i
 
 ---
 
-## Step 3 — Concretize (the actual storyfy work)
+## Step 3 — Concretize (the actual story work)
 
 Story = specificity + stakes + sequence. For each abstraction in the source, ask "what would a journalist need to film this scene?" Replace with:
 
@@ -207,8 +207,8 @@ If loose mode: skip the checklist block, return only Framework choice + draft.
 ## What this skill does NOT do
 
 - **Voice tuning** — that's `humanize-en`. Run it after story-en if voice needs lifting.
-- **De-AI-ifying / "teflon" patterns** — that's the `teflon-to-velcro` skill. Run after storyfy.
-- **Subject line writing** — storyfy's job is body. Mention SL only if the user asks.
+- **De-AI-ifying** — that's `humanize-en`, same as voice tuning above. Run it after this skill.
+- **Subject line writing** — this skill's job is the body. Mention SL only if the user asks.
 - **Structural email design** (H1, CTA placement, length budget) — that's a UX pass, not a story pass.
 - **Inventing product facts** — pricing, features, dates. Never. Pull from product context or ask.
 - **Overwriting locked brand-voice rules** — sign-off, timing claims, bold rules in auto-memory are binding.
@@ -244,4 +244,4 @@ You don't need to cite these in output — they're here so you trust the rubric:
 
 ## Trigger phrases
 
-`storyfy this`, `make this a story`, `add a story to this email`, `turn this into a narrative`, `concrete this up`, `it reads too SaaS-flat`, `/storyfy`, `/storyfy hybrid`, `/storyfy loose`.
+`/story-en`, `/story-en hybrid`, `/story-en loose`. Also triggers on: `make this a story`, `add a story to this email`, `turn this into a narrative`, `concrete this up`, `it reads too SaaS-flat`.

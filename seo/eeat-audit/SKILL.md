@@ -158,7 +158,7 @@ Things that require more work but would fundamentally strengthen E-E-A-T: adding
 
 ## Next Step
 
-To apply the fixes: use the `improve-content` skill with this URL, and paste the gap list as context.
+To apply the fixes: use the `article` skill in its update mode with this URL, and paste the gap list as context.
 
 ## Bundled references
 

@@ -5,7 +5,7 @@ description: Use when extracting first-party expertise from a subject-matter exp
 
 # Expert Interview
 
-Extracts unique expertise through targeted interview questions. Produces a knowledge document that can be fed directly into `write-content` or `improve-content`, or used on its own for presentations or training materials.
+Extracts unique expertise through targeted interview questions. Produces a knowledge document that can be fed directly into `article`, or used on its own for presentations or training materials.
 
 This is a pure conversation skill. No data, no research, no URL fetching. Just good questions and active listening.
 
@@ -59,7 +59,7 @@ After the interview, organize answers into a structured knowledge document:
 - **Experience details** — what worked, what failed, what was surprising
 - **Scope and limitations** — who this applies to, who it doesn't, when the advice breaks down
 
-This document can be passed directly to `write-content` or `improve-content` as context. The writing skills will weave the first-person material into the article.
+This document can be passed directly to `article` as context (or to `humanize-ru` / `humanize-en` when only the voice needs lifting). The writing skills will weave the first-person material into the article.
 
 ## Language
 
@@ -72,6 +72,6 @@ Load from `references/` only when the step calls for them.
 - **`question-bank-by-topic.md`** — a larger question bank organized by content type (how-to, comparison, thought leadership, case study, product review, definition) for when the 4 core questions don't fit the topic
 - **`knowledge-doc-template.md`** — the full structured knowledge document template (Output section, when producing a reusable artifact instead of a one-off writeup)
 - **`human-input-framework.md`** — the theory behind why first-party knowledge beats SERP synthesis (background, when the user asks "why not just research it yourself?")
-- **`information-gain-writing.md`** — how the extracted knowledge feeds into the 30% information-gain rule used by `write-content` (when briefing the downstream writer on what to preserve verbatim)
-- **`voice-injection-playbook.md`** — how the first-person phrasing carries into the final article (when handing off to `write-content` for a voice-heavy piece)
+- **`information-gain-writing.md`** — how the extracted knowledge feeds into the 30% information-gain rule used by `article` (when briefing the downstream writer on what to preserve verbatim)
+- **`voice-injection-playbook.md`** — how the first-person phrasing carries into the final article (when handing off to `article` for a voice-heavy piece)
 - **`eeat-signal-embedding.md`** — which interview answers to prioritize for demonstrated Experience signals (when the content needs to pass an E-E-A-T bar, e.g., YMYL)

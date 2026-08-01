@@ -60,4 +60,4 @@ Pillar pages fail most often at one thing: they're written as comprehensive-essa
 
 ## Cross-reference
 
-The full per-type content templates (with structure, word counts, schema, CTA placement, internal linking strategy, anti-AI focus) live in `write-content/references/content-types/`. Load those when the audit needs to recommend a restructure or rewrite, not when you're just scoring. For this audit skill, the summary above is sufficient to apply the right lens in Phase 0.
+The full per-type content templates (with structure, word counts, schema, CTA placement, internal linking strategy, anti-AI focus) live in `write-content/references/content-types/` in the upstream superseo-skills repo (that skill is not bundled here; see ../../README.md). Load those when the audit needs to recommend a restructure or rewrite, not when you're just scoring. For this audit skill, the summary above is sufficient to apply the right lens in Phase 0.

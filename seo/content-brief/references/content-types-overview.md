@@ -112,6 +112,12 @@ If you need the underlying methodologies rather than the content-type skeletons,
 - `intent-matching.md`: the full intent-classification logic and SERP-reading playbook
 - `serp-driven-writing.md`: how to read the top 5 and extract the winning format
 - `structured-data-snippets.md`: the full schema-markup catalog with examples
-- `anti-slop-ruleset.md`: the banned-vocabulary list and structural tells
 - `voice-injection-playbook.md`: how to inject first-person experience into any type
+  (bundled with the `expert-interview` skill)
 - `eeat-signal-embedding.md`: where and how to place author, credentials, and evidence
+  (bundled with `expert-interview` and `eeat-audit`)
+
+For the banned-vocabulary list and structural tells, use this bundle's own
+anti-slop skills instead: `humanize-ru` for Russian, `humanize-en` for English.
+They replace the upstream anti-slop ruleset, which shipped with the
+write-content and improve-content skills that are not included here.

@@ -12,7 +12,9 @@ Copyright 2026 InhouseSEO · https://inhouseseo.ai
 
 ## Что изменено относительно оригинала
 
-Файлы самих скиллов **не правились**. Изменён только состав набора:
+Два изменения: состав набора и перенаправление ссылок на выброшенные скиллы.
+
+### 1. Состав набора
 
 **Взято (9 из 11):**
 `content-brief` · `eeat-audit` · `expert-interview` · `featured-snippet-optimizer` ·
@@ -30,6 +32,27 @@ Copyright 2026 InhouseSEO · https://inhouseseo.ai
 
 Ничего из выброшенного не удалено из оригинала — если нужны именно они, ставьте
 набор InhouseSEO целиком, скиллы совместимы и живут рядом.
+
+### 2. Перенаправление ссылок
+
+Оставшиеся скиллы в нескольких местах отсылали к выброшенным: «дальше используй
+`write-content`», «применить правки через `improve-content`». Без правки это тупик —
+скилл заканчивает работу указанием на то, чего в наборе нет.
+
+Ссылки переписаны на наши замены (`article`, `humanize-ru`, `humanize-en`).
+Затронуты файлы:
+
+```
+content-brief/SKILL.md                                  featured-snippet-optimizer/SKILL.md
+expert-interview/SKILL.md                               featured-snippet-optimizer/references/aio-vs-snippet-decision.md
+expert-interview/references/knowledge-doc-template.md   page-audit/references/content-types-audit-summary.md
+eeat-audit/SKILL.md                                     content-brief/references/content-types-overview.md
+semantic-gap-analysis/SKILL.md                          topic-cluster-planning/SKILL.md
+```
+
+Изменены только эти отсылки. Методики, промпты, справочные данные и структура —
+как в оригинале. Две ссылки на файлы внутри выброшенных скиллов ведут теперь в
+апстрим-репозиторий, чтобы информация не потерялась.
 
 ## Что эти скиллы делают
 
